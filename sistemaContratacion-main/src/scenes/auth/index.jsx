@@ -155,14 +155,19 @@ function Auth() {
               </div>
               <div className="row">
                 <div className="col">
+                  <div style={{ display: 'flex', alignItems: 'center' }}>
                   <label htmlFor="email"><EmailIcon /></label>
+                    <span style={{ marginLeft: '-3px' }}>Email</span>
+                  </div>
                   <Components.Input type='email' placeholder='Email' />
                 </div>
               </div>
               <div className="row">
                 <div className="col">
+                  <div style={{ display: 'flex', alignItems: 'center' }}>
                   <label htmlFor="password"><KeyIcon /></label>
-                
+                    <span style={{ marginLeft: '-3px' }}>Contraseña</span>
+                  </div>
                   <Components.Input type='password' placeholder='Contraseña' />
                 </div>
               </div>
@@ -186,7 +191,10 @@ function Auth() {
               <div className="authForm">
                 <div className="row">
                   <div className="col">
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
                     <label htmlFor="email"><EmailIcon /></label>
+                      <span style={{ marginLeft: '-3px' }}>Email</span>
+                    </div>
                     <Components.Input type='email' placeholder='Email' ref={signinForm.email} />
                   </div>
                 </div>
